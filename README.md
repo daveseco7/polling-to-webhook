@@ -3,6 +3,17 @@ A simple way to implement a polling mechanism that triggers a webhook in respons
 
 ![](https://raw.githubusercontent.com/daveseco7/polling-to-webhoook/master/polling-to-webhook.png)
 
+* cron expression config
+    * location: _**config/default.json**_
+    * content:
+```
+{
+    "job": {
+        "cron": "* * * * *"
+    }
+}
+```
+
 
 * callbacks to evaluate the response from the polling
 ```
