@@ -1,0 +1,30 @@
+{
+  "name": "polling-to-webhook",
+  "version": "1.0.0",
+  "description": "A simple way to implement a polling mechanism that triggers a webhook in response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveseco7/polling-to-webhoook.git"
+  },
+  "keywords": [
+    "polling",
+    "webhook"
+  ],
+  "author": "David Fontes",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^2.0.1",
+    "node-schedule": "^1.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/daveseco7/polling-to-webhoook/issues"
+  },
+  "homepage": "https://github.com/daveseco7/polling-to-webhoook#readme"
+}
