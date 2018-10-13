@@ -27,7 +27,7 @@ const webhookOptions = {uri:'http://localhost:8000/', method: 'GET'};
 
 * simple use case of polling-2-webhook
 ```
-const pollingManager = require('./pollingManager');
+const pollingManager = require('polling-to-webhook');
 pollingManager.registerPolling('key1', options, webhookOptions, evaluteTrue);
 pollingManager.registerPolling('key2', options, webhookOptions, evaluteTrue);
 pollingManager.registerPolling('key3', options, webhookOptions, evaluteTrue);
